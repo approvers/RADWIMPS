@@ -3,27 +3,27 @@
 
 struct RADWIMPS;
 struct RADWIMPS then();
-struct RADWIMPS ê¢();
+struct RADWIMPS ‰∏ñ();
 
 
 struct RADWIMPS {
      struct RADWIMPS (*then)();
-     struct RADWIMPS (*ê¢)();
+     struct RADWIMPS (*‰∏ñ)();
 };
-struct RADWIMPS RADWIMPS = { then, ê¢ };
+struct RADWIMPS RADWIMPS = { then, ‰∏ñ };
 
 
 struct RADWIMPS then() {
-    printf("ëO");
+    printf("Ââç");
      return RADWIMPS;
 }
-struct RADWIMPS ê¢() {
-    printf("ê¢");
+struct RADWIMPS ‰∏ñ() {
+    printf("‰∏ñ");
      return RADWIMPS;
 }
 
 int main() {
-    RADWIMPS.then().then().then().ê¢();
+    RADWIMPS.then().then().then().‰∏ñ();
     
     return 0;
 }
