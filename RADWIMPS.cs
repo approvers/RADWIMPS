@@ -2,24 +2,24 @@ using System;
 
 namespace RADWIMPS
 {
-    internal class RADWIMPS
+    public class Program
     {
-        public RADWIMPS then()
+        internal class RADWIMPS
         {
-            Console.Write("前");
-            return this;
+            public RADWIMPS then()
+            {
+                Console.Write("前");
+                return this;
+            }
+
+            public RADWIMPS 世()
+            {
+                Console.WriteLine("世");
+                return this;
+            }
         }
 
-        public RADWIMPS 世()
-        {
-            Console.WriteLine("世");
-            return this;
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             RADWIMPS RADWIMPS = new RADWIMPS();
 
