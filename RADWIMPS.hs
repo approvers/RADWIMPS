@@ -3,7 +3,7 @@ _then = putStr "前"
 
 
 世 :: IO ()
-世 = putStrLn("世")
+世 = putStrLn "世"
 
 
 main :: IO ()
