@@ -1,6 +1,6 @@
 'use strict';
 
-const p = c => process.stdout.write(c);
+const p = process.stdout.write;
 const f = Promise.prototype.then;
 
 Promise.prototype.then = function () { return f.call(this, () => p('前')); };
