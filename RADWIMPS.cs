@@ -4,7 +4,7 @@ namespace RADWIMPS
 {
     public class Program
     {
-        internal class RADWIMPS
+        private class RADWIMPS
         {
             public RADWIMPS then()
             {
