@@ -2,7 +2,7 @@ object RADWIMPS {
 
 ​	fun then() = also { print("前") }
 
-​	fun `世` = also { print("世") }
+​	fun `世`() = also { print("世") }
 
 }
 
