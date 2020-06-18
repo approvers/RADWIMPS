@@ -1,7 +1,7 @@
 'use strict';
 
 const os = require('os');
-const p = process.stdout.write;
+const p = c => process.stdout.write(c);
 const f = Promise.prototype.then;
 
 Promise.prototype.then = function () { return f.call(this, () => p('前')); };
