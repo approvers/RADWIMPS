@@ -6,4 +6,4 @@ object RADWIMPS {
 
 }
 
-fun main() = RADWIMPS.then().then.then.`世`()
+fun main() = RADWIMPS.then().then().then().`世`()
