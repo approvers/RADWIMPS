@@ -1,15 +1,14 @@
 'use strict';
 
-Promise.prototype.前 = Promise.prototype.then;
-Promise.prototype.世 = function (f) {
-    this.finally(() => f('世'));
-};
+const p = c => process.stdout.write(c);
+const f = Promise.prototype.then;
 
-const p = c => process.stdout.write(c) && c;
+Promise.prototype.then = function () { return f.call(this, () => p('前')); };
+Promise.prototype.世 = function () { return f.call(this, () => p('世')); };
 
-Promise.resolve('前')
-    .前(p)
-    .前(p)
-    .前(p)
-    .世(p)
+Promise.resolve()
+    .then()
+    .then()
+    .then()
+    .世()
 ;
