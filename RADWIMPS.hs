@@ -1,5 +1,5 @@
 _then :: IO ()
-_then = putStr("前")
+_then = putStr "前"
 
 
 世 :: IO ()
@@ -8,4 +8,3 @@ _then = putStr("前")
 
 main :: IO ()
 main = _then >> _then >> _then >> 世
-
