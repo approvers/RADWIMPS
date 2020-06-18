@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
 class RADWIMPS:
     @classmethod
     def then(self):
