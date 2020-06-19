@@ -7,7 +7,7 @@ class Main {
 
         @SuppressWarnings('NonAsciiCharacters')
         def 世() {
-            print "世"
+            println "世"
             return this
         }
     }
