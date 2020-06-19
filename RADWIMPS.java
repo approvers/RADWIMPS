@@ -12,7 +12,7 @@ class RADWIMPS {
     }
     
     public RADWIMPS then() {
-        System.out.print("前");
+        System.out.println("前");
         return this;
     }
 }
