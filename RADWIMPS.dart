@@ -1,18 +1,17 @@
-class RADWIMPS {
-  String zennzennzennse = "";
+import 'dart:io';
 
+class RADWIMPS {
   RADWIMPS then() {
-    zennzennzennse += "前";
+    stdout.write("前");
     return this;
   }
 
-  RADWIMPS 世() {
-    zennzennzennse += "世";
-    print(zennzennzennse);
+  RADWIMPS se() {
+    stdout.write("世\n");
     return this;
   }
 }
 
 void main() {
-  RADWIMPS().then().then().then().世();
+  RADWIMPS().then().then().then().se();
 }
