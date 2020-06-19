@@ -6,12 +6,12 @@ class RADWIMPS {
     return this;
   }
 
-  RADWIMPS se() {
+  RADWIMPS 世() {
     stdout.write("世\n");
     return this;
   }
 }
 
 void main() {
-  RADWIMPS().then().then().then().se();
+  RADWIMPS().then().then().then().世();
 }
