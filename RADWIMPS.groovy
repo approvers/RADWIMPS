@@ -9,6 +9,8 @@ class RADWIMPS {
         println "世"
         return this
     }
-}
 
-new RADWIMPS().then().then().then().世()
+    static main(arg) {
+        new RADWIMPS().then().then().then().世()
+    }
+}
