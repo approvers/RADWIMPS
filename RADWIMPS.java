@@ -6,11 +6,11 @@ class RADWIMPS {
     }
     
     public void 世() {
-        System.out.print("世");
+        System.out.println("世");
     }
     
     public RADWIMPS then() {
-        System.out.println("前");
+        System.out.print("前");
         return this;
     }
 }
