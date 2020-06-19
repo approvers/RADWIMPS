@@ -7,7 +7,7 @@ class RADWIMPS {
     }
 
     RADWIMPS 世() {
-        write("世");
+        writeln("世");
         return this;
     }
 }
