@@ -1,10 +1,14 @@
 class RADWIMPS {
+  String zennzennzennse = "";
+
   RADWIMPS then() {
-    print("前");
+    zennzennzennse += "前";
     return this;
   }
+
   RADWIMPS 世() {
-    print("世");
+    zennzennzennse += "世";
+    print(zennzennzennse);
     return this;
   }
 }
