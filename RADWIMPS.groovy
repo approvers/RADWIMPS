@@ -16,3 +16,4 @@ class Main {
         new RADWIMPS().then().then().then().世()
     }
 }
+
