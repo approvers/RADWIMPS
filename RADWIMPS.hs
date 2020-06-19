@@ -1,10 +1,14 @@
-_then :: IO ()
-_then = putStr "前"
+radwimps :: String -> IO ()
+radwimps s = putStrLn s
 
 
-世 :: IO ()
-世 = putStrLn "世"
+_then :: String -> IO String
+_then s = return $ "前" ++ s
+
+
+世 :: IO String
+世 = return "世"
 
 
 main :: IO ()
-main = _then >> _then >> _then >> 世
+main = radwimps =<< _then =<< _then =<< _then =<< 世
