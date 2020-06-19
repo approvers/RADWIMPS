@@ -6,7 +6,7 @@ class RADWIMPS{
   }
 
   def 世():RADWIMPS={
-    print("世")
+    println("世")
     return self
   }
 }
