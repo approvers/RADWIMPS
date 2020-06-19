@@ -1,10 +1,13 @@
+import 'dart:io';
+
 class RADWIMPS {
   RADWIMPS then() {
-    print("前");
+    stdout.write("前");
     return this;
   }
+
   RADWIMPS 世() {
-    print("世");
+    stdout.write("世\n");
     return this;
   }
 }
