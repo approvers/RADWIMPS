@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body></body>
+        <script>
+            let old_then = Promise.prototype.then;
+
+            Promise.prototype.then = function() {
+                if (!this.RADWIMPS) {
+                    this.RADWIMPS = "";
+                }
+
+                this.RADWIMPS += "前";
+                old_then.call(this, () => {});
+
+                return this;
+            };
+                
+            Promise.prototype.世 = function() {
+                document.body.innerHTML = this.RADWIMPS + "世"; 
+            };
+            
+            Promise.resolve().then().then().then().世();
+        </script>
+</html>
+
