@@ -7,4 +7,4 @@ type RADWIMPS() =
         printfn("世")
         this
 
-(new RADWIMPS())._then()._then()._then().世()
+(new RADWIMPS())._then()._then()._then().世() |> ignore
