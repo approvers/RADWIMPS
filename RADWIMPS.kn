@@ -1,0 +1,16 @@
+class RADWIMPS()
+	+func then(): @RADWIMPS
+		do cui@print("前")
+		ret me
+	end func
+	
+	+func 世(): @RADWIMPS
+		do cui@print("世\n")
+		ret me
+	end func
+end class
+
+func main()
+	var radwimps: @RADWIMPS :: #@RADWIMPS
+	do radwimps.then().then().then().世()
+end func
