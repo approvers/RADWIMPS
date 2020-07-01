@@ -3,7 +3,7 @@
     <head></head>
     <body></body>
     <script>
-        let old_then = Promise.prototype.then;
+        const old_then = Promise.prototype.then;
 
         Promise.prototype.then = function() {
             if (!this.RADWIMPS) {
@@ -23,4 +23,3 @@
         Promise.resolve().then().then().then().世();
     </script>
 </html>
-
