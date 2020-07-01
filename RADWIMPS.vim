@@ -2,12 +2,12 @@ function! RADWIMPS() abort
     let radwimps = {}
 
     function! radwimps.then() closure
-        echon '前'
+        echon "前"
         return radwimps
     endfunction
 
     function! radwimps.se() closure
-        echon '世'
+        echon "世\n"
         return radwimps
     endfunction
 
