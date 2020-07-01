@@ -1,14 +1,13 @@
 class RADWIMPS
     def self.then
-      print "前"
-      return self
+        print "前"
+        return self
     end
-  
+
     def self.世
-      print "世"
-      return self
+        print "世"
+        return self
     end
-  end
+end
   
-  RADWIMPS.then.then.then.世
-  
+RADWIMPS.then.then.then.世
