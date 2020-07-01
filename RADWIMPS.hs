@@ -1,13 +1,12 @@
-import Prelude hiding ((.))
-
 main :: IO ()
-main = then'().then'().then'().世()
+main = radwimps $
+  then'().then'().then'().世()
 
-then' :: () -> IO ()
-then' () = putStr "前"
+radwimps :: (() -> IO ()) -> IO ()
+radwimps = ($ ())
 
-世 :: () -> IO ()
-世 () = putStrLn "世"
+then' :: () -> IO a -> IO a
+then' () k = putStr "前" >> k
 
-(.) :: IO a -> IO b -> IO b
-(.) = (>>)
+世 :: () -> () -> IO ()
+世 () () = putStrLn "世"
