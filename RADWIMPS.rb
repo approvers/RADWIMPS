@@ -1,13 +1,13 @@
 class RADWIMPS
+    @s = ''
     def self.then
-        print "前"
+        @s += ?前
         return self
     end
 
     def self.世
-        print "世"
-        return self
+        @s + ?世
     end
 end
-  
-RADWIMPS.then.then.then.世
+
+puts RADWIMPS.then.then.then.世
