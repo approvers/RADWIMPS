@@ -1,13 +1,10 @@
-type RAD = ref object
-  name: string
+type RADWIMPS = ref object
 
-proc then(value: RAD): RAD =
+proc then(value: RADWIMPS): RADWIMPS =
   stdout.write "前"
   return value
 
-proc 世(value: RAD): void =
+proc 世(value: RADWIMPS): void =
   echo "世"
 
-let RADWIMPS: RAD = new RAD
-
-RADWIMPS.then().then().then().世()
+(new RADWIMPS).then().then().then().世()
