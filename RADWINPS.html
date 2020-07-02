@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>RADWINPS</title>
+    </head>
+    <body>
+        <x-then>
+            <x-then>
+                <x-then>
+                    <x-世>
+                    </x-世>
+                </x-then>
+            </x-then>
+        </x-then>
+
+        <template id="then">
+            前<slot></slot>
+        </template>
+
+        <template id="世">
+            世
+        </template>
+
+        <script>
+            customElements.define(
+                'x-then',
+                class extends HTMLElement {
+                    constructor() {
+                        super();
+                        const template = document
+                            .getElementById('then')
+                            .content
+                        this
+                            .attachShadow({mode: 'open'})
+                            .appendChild(template.cloneNode(true))
+                    }
+                }
+            )
+            customElements.define(
+                'x-世',
+                class extends HTMLElement {
+                    constructor() {
+                        super();
+                        const template = document
+                            .getElementById('世')
+                            .content
+                        this
+                            .attachShadow({mode: 'open'})
+                            .appendChild(template.cloneNode(true))
+                    }
+                }
+            )
+        </script>
+    </body>
+</html>
