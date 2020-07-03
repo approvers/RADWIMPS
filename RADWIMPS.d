@@ -13,5 +13,5 @@ class RADWIMPS {
 }
 
 void main() {
-    new RADWIMPS().then().then().then().世();
+    new RADWIMPS().then.then.then.世;
 }
