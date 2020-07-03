@@ -1,7 +1,7 @@
 class RADWIMPS
   def self.then
     print ?前
-    return self
+    self
   end
 
   def self.世
