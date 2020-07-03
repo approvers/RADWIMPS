@@ -1,0 +1,5 @@
+(defun then ()
+	(princ #\前))
+(defun 世 ()
+	(mapcar #'princ '(#\世 #\newline)))
+(progn '(RADWIMPS)(then)(then)(then)(世))
