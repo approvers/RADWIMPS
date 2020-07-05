@@ -1,32 +1,35 @@
+#include <Block.h>
 #include <Foundation/NSObject.h>
 #include <stdio.h>
 
 @interface RADWIMPS : NSObject
 
-- (RADWIMPS *)then;
-- (void)世;
+@property(readonly, nonatomic, copy) RADWIMPS * (^then)();
+@property(readonly, nonatomic, copy) void (^世)();
 
 @end
 
 @implementation RADWIMPS
 
-- (RADWIMPS *)then {
-  printf("前");
-
-  return self;
+- (RADWIMPS * (^)())then {
+  return Block_copy(^RADWIMPS *() {
+    printf("前");
+    return self;
+  });
 }
 
-- (void)世 {
-  printf("世\n");
+- (void (^)())世 {
+  return ^() {
+    printf("世\n");
+  };
 }
 
 @end
 
-
 int main() {
-  RADWIMPS *radwimps = [RADWIMPS alloc];
+  RADWIMPS *radwimps = [[RADWIMPS alloc] init];
 
-  [[[[radwimps then] then] then] 世];
+  radwimps.then().then().then().世();
 
   [radwimps dealloc];
 }
