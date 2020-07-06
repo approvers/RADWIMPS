@@ -10,4 +10,4 @@
  1. Please try it if your favorite programming language has faculty: `Promise`,`Future`, and so on!
 
 
- \* The words for example "RADWIMPS" in these sourse codes are fictitious. Any similarity to actual persons or events is unintentional.
+ \* The words for example "RADWIMPS" in these sourse codes are fictitious. Any similarity to actual band name or events is unintentional.
