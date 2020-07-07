@@ -1,6 +1,6 @@
 # RADWIMPS
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <table>
@@ -45,6 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://lemon.wktk.so"><img src="https://avatars2.githubusercontent.com/u/17427152?v=4" width="100px;" alt=""/><br /><sub><b>れもん</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=lemoncmd" title="Code">💻</a></td>
     <td align="center"><a href="https://naturalclar.dev"><img src="https://avatars1.githubusercontent.com/u/6936373?v=4" width="100px;" alt=""/><br /><sub><b>Jesse Katsumata</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=Naturalclar" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/kawaemon"><img src="https://avatars2.githubusercontent.com/u/34652535?v=4" width="100px;" alt=""/><br /><sub><b>かわえもん</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/pulls?q=is%3Apr+reviewed-by%3Akawaemon" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/primenumber"><img src="https://avatars2.githubusercontent.com/u/1918373?v=4" width="100px;" alt=""/><br /><sub><b>prime number</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=primenumber" title="Code">💻</a></td>
   </tr>
 </table>
 
