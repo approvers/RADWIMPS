@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mirror-kt",
+      "name": "Misato Kano",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/43880251?v=4",
+      "profile": "https://github.com/mirror-kt",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "RADWIMPS",
+  "projectOwner": "approvers",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
