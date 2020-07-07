@@ -1,6 +1,6 @@
 # RADWIMPS
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <table>
@@ -38,6 +38,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://nodaguti.github.io/"><img src="https://avatars0.githubusercontent.com/u/27622?v=4" width="100px;" alt=""/><br /><sub><b>nodaguti</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=nodaguti" title="Code">💻</a></td>
     <td align="center"><a href="https://siketyan.dev"><img src="https://avatars3.githubusercontent.com/u/12772118?v=4" width="100px;" alt=""/><br /><sub><b>Naoki Ikeguchi</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/pulls?q=is%3Apr+reviewed-by%3ASiketyan" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="http://www.twitter.com/raiga_tech/"><img src="https://avatars2.githubusercontent.com/u/44018535?v=4" width="100px;" alt=""/><br /><sub><b>ライガー</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=raiga0310" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://twitter.com/programmer_shun"><img src="https://avatars0.githubusercontent.com/u/37236438?v=4" width="100px;" alt=""/><br /><sub><b>Shuntaro Nishizawa</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/pulls?q=is%3Apr+reviewed-by%3Ashun-shobon" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
