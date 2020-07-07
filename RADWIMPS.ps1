@@ -1,5 +1,5 @@
-class Radwimps {
-    [Radwimps] Then() {
+class RADWIMPS {
+    [RADWIMPS] Then() {
         Write-Host -NoNewLine "前"
         return $this
     }
@@ -9,5 +9,4 @@ class Radwimps {
     }
 }
 
-$radwimps = New-Object Radwimps
-$radwimps.Then().Then().Then().世()
+(New-Object RADWIMPS).Then().Then().Then().世()
