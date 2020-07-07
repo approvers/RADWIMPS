@@ -19,4 +19,4 @@
 - **Output** `前前前世` and a line break at the end
 - If you have features of a language such as **Promise** or **Future**, **make use of them**
 
-*This repository has nothing to do with the real band RADWIMPS.*
+*This repository has nothing to do with the real band "RADWIMPS".*
