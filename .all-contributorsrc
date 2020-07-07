@@ -104,6 +104,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "primenumber",
+      "name": "prime number",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1918373?v=4",
+      "profile": "https://github.com/primenumber",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
