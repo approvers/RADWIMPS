@@ -1,6 +1,6 @@
 # RADWIMPS
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <table>
@@ -43,6 +43,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://scrapbox.io/0918nobita"><img src="https://avatars1.githubusercontent.com/u/8453302?v=4" width="100px;" alt=""/><br /><sub><b>0918nobita</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=0918nobita" title="Code">💻</a></td>
     <td align="center"><a href="http://lemon.wktk.so"><img src="https://avatars2.githubusercontent.com/u/17427152?v=4" width="100px;" alt=""/><br /><sub><b>れもん</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=lemoncmd" title="Code">💻</a></td>
+    <td align="center"><a href="https://naturalclar.dev"><img src="https://avatars1.githubusercontent.com/u/6936373?v=4" width="100px;" alt=""/><br /><sub><b>Jesse Katsumata</b></sub></a><br /><a href="https://github.com/approvers/RADWIMPS/commits?author=Naturalclar" title="Code">💻</a></td>
   </tr>
 </table>
 
