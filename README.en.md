@@ -1,5 +1,18 @@
 # RADWIMPS
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href="README.md">日本語</a>
+      </td>
+      <td>
+        <span>English</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Rule
 
 - **Use a method chain** like `then().then().then().世`
