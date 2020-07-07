@@ -1,0 +1,16 @@
+*define
+game
+
+*then
+前/
+return
+
+*世
+@
+end
+
+*start
+gosub *then
+gosub *then
+gosub *then
+gosub *世
