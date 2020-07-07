@@ -6,7 +6,6 @@
 (defsubst 世 () "世")
 
 (defmacro RADWIMPS (&rest lst)
-  "LST."
   `(mapconcat 'funcall (list ,@(mapcar (lambda (s) (list 'quote s)) lst)) ""))
 
 (defun 前前前世 ()
