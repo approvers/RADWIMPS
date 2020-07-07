@@ -95,6 +95,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kawaemon",
+      "name": "かわえもん",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/34652535?v=4",
+      "profile": "https://github.com/kawaemon",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
