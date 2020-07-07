@@ -6,4 +6,4 @@ defmodule RADWIMPS do
   def main(), do: :RADWIMPS |> then() |> then() |> then() |> 世()
 end
 
-RADWINPS.main()
+RADWIMPS.main()
