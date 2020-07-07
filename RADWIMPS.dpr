@@ -1,6 +1,4 @@
 ﻿{$APPTYPE CONSOLE}
-uses
-  System.SysUtils;
 
 type
   TRADWIMPS = record
