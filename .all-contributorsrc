@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "mirror-kt",
+      "name": "Misato Kano",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/43880251?v=4",
+      "profile": "https://github.com/mirror-kt",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
       "login": "MikuroXina",
       "name": "Mikuro Xina",
       "avatar_url": "https://avatars2.githubusercontent.com/u/10331164?v=4",
