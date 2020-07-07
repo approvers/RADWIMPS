@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "MikuroXina",
+      "name": "Mikuro Xina",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10331164?v=4",
+      "profile": "http://mikuroxina.github.io/portfolio",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "RADWIMPS",
+  "projectOwner": "approvers",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
