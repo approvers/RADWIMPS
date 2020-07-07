@@ -133,6 +133,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ko50",
+      "name": "ko",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/60608740?v=4",
+      "profile": "http://ko50.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
