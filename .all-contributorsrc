@@ -68,6 +68,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "0918nobita",
+      "name": "0918nobita",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8453302?v=4",
+      "profile": "https://scrapbox.io/0918nobita",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
