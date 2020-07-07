@@ -13,6 +13,8 @@
   (interactive)
   (message (RADWIMPS then then then 世)))
 
+(defalias 'then-then-then-世 '前前前世)
+
 (provide 'RADWIMPS)
 
 ;; Local Variables:
