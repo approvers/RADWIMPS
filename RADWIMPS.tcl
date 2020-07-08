@@ -1,13 +1,13 @@
 oo::class create RADWIMPS {
   method then {} {
-    return "前"
+    puts -nonewline "前"
   }
   method se {} {
-    return "世"
-  }
-  destructor {
-    puts [main then][main then][main then][main se]
+    puts "世"
   }
 }
 RADWIMPS create main
-main destroy
+main then
+main then
+main then
+main se
