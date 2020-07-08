@@ -1,6 +1,4 @@
-// 仕様上の制約により、ファイル名およびクラス名は PascalCase になっています
-
-using RadWimps.ThenSeExtension;
+using RADWIMPS.ThenSeExtension;
 
 class ThenSeExtension {
   static public function then(value: String): String
@@ -10,7 +8,7 @@ class ThenSeExtension {
     Sys.println(value + "世");
 }
 
-class RadWimps {
+class RADWIMPS {
   static function then(): String
     return "".then();
 
