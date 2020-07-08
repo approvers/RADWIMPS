@@ -5,8 +5,9 @@ oo::class create RADWIMPS {
   method se {} {
     return "世"
   }
+  destructor {
+    puts [main then][main then][main then][main se]
+  }
 }
 RADWIMPS create main
-puts [main then][main then][main then][main se]
 main destroy
-RADWIMPS destroy
