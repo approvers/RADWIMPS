@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# $ (cmd)            | ./tester #=> NG. or OK.
+# $ echo RADWIMPS    | ./tester #=> NG.
+# $ echo -n 前前前世 | ./tester #=> NG.
+# $ echo 前前前世    | ./tester #=> OK.
+
+function main() {
+  local tmp1 tmp2
+  tmp1="$(mktemp)"
+  tmp2="$(mktemp)"
+  echo 前前前世 > "${tmp1}"
+  cat - > "${tmp2}"
+  diff "${tmp1}" "${tmp2}" >&2
+  [[ $? = 0 ]] && {
+    echo OK.
+    return 0
+  } || {
+    echo NG. >&2
+    return 1
+  }
+}
+cat - | main
+exit $?
