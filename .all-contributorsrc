@@ -1,0 +1,171 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "zonuexe",
+      "name": "USAMI Kenta",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/822086?v=4",
+      "profile": "https://tadsan.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mirror-kt",
+      "name": "Misato Kano",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/43880251?v=4",
+      "profile": "https://github.com/mirror-kt",
+      "contributions": [
+        "review",
+        "doc"
+      ]
+    },
+    {
+      "login": "MikuroXina",
+      "name": "Mikuro Xina",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10331164?v=4",
+      "profile": "http://mikuroxina.github.io/portfolio",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "nodaguti",
+      "name": "nodaguti",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27622?v=4",
+      "profile": "https://nodaguti.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Siketyan",
+      "name": "Naoki Ikeguchi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12772118?v=4",
+      "profile": "https://siketyan.dev",
+      "contributions": [
+        "review",
+        "code"
+      ]
+    },
+    {
+      "login": "raiga0310",
+      "name": "ライガー",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44018535?v=4",
+      "profile": "http://www.twitter.com/raiga_tech/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "shun-shobon",
+      "name": "Shuntaro Nishizawa",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/37236438?v=4",
+      "profile": "https://twitter.com/programmer_shun",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "0918nobita",
+      "name": "0918nobita",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8453302?v=4",
+      "profile": "https://scrapbox.io/0918nobita",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "lemoncmd",
+      "name": "れもん",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17427152?v=4",
+      "profile": "http://lemon.wktk.so",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Naturalclar",
+      "name": "Jesse Katsumata",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6936373?v=4",
+      "profile": "https://naturalclar.dev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kawaemon",
+      "name": "かわえもん",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/34652535?v=4",
+      "profile": "https://github.com/kawaemon",
+      "contributions": [
+        "review",
+        "code"
+      ]
+    },
+    {
+      "login": "primenumber",
+      "name": "prime number",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1918373?v=4",
+      "profile": "https://github.com/primenumber",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sanposhiho",
+      "name": "sanposhiho",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44139130?v=4",
+      "profile": "https://www.notion.so/Kensei-Nakada-s-Resume-b862aae001a644e5b094099a4444773a",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shirakia",
+      "name": "Atsuo Shiraki",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/728375?v=4",
+      "profile": "http://shirakia.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ko50",
+      "name": "ko",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/60608740?v=4",
+      "profile": "http://ko50.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "eggplants",
+      "name": "haruna",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/42153744?v=4",
+      "profile": "https://www.u.tsukuba.ac.jp/~s1811528/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "private-yusuke",
+      "name": "public_yusuke",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/30387586?v=4",
+      "profile": "https://private-yusuke.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "RADWIMPS",
+  "projectOwner": "approvers",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
