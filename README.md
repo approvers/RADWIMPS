@@ -23,6 +23,68 @@
  
 なお、このレポジトリは、実在するバンド「RADWIMPS」とは何ら関係ありません。
 
+## 実装されている言語一覧(アルファベット順)
+
+### 審査通過済み言語
+
+- AppleScript
+- bash
+- C
+- C preprocessor(.h)
+- Clojure
+- C++
+- C#
+- D
+- Dart
+- dash
+- Emacs Lisp
+- Elixir
+- FORTH
+- Golang
+- Groovy
+- Hack
+- Haskell
+- HTML
+- Haxe
+- Java
+- Julia
+- JavaScript
+- Kuin
+- Kotlin
+- Common Lisp(.lsp)
+- Lua
+- Objective-C(.m)
+- OCaml(.ml)
+- nako
+- NScripter
+- PHP
+- Perl
+- PowerShell
+- Python3
+- Raku
+- Ruby
+- Produire/プロデア(.rdr)
+- ReasonML
+- Racket
+- Rust
+- Scratch
+- Scala
+- Scheme
+- Swift
+- TeX
+- TypeScript
+- V
+- Vim Script
+
+### 審査待ち(OpenのPR参照、2020/7/8時点)
+
+- BackleScript
+- Delphi
+- Io
+- Smalruby
+- wenyan-lang
+- Zen
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
