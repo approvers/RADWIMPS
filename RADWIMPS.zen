@@ -1,0 +1,21 @@
+const std = @import("std");
+
+const RADWIMPS = struct {
+    stdout: std.fs.File,
+
+    fn then(self: RADWIMPS) RADWIMPS {
+        _ = self.stdout.write("前") catch return self;
+        return self;
+    }
+
+    fn se(self: RADWIMPS) void {
+        _ = self.stdout.write("世\n") catch return;
+    }
+};
+
+pub fn main() anyerror!void {
+    const rad = RADWIMPS {
+        .stdout = try std.fs.getStdOut(),
+    };
+    rad.then().then().then().se();
+}
