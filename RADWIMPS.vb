@@ -1,12 +1,12 @@
 public class compiler
 
 class RADWIMPS
-	function _then() as Object
+	function _then() as RADWIMPS
 		Console.Write ("前")
 		return Me
 	end function
 	
-	function 世() as Object
+	function 世() as RADWIMPS
 		Console.WriteLine ("世")
 		return Me
 	end Function
