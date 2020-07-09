@@ -21,6 +21,7 @@ const 世 = Vue.component('se', {
 })
 
 export default Vue.extend({
+  name: 'RADWIMPS',
   components: {
     前,
     世,
