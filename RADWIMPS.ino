@@ -17,7 +17,8 @@ void setup() {
 
 void loop() {
   static bool flag = true;
-  
+
+  delay(1500);
   if (flag) {
     RADWIMPS RADWIMPS;
     RADWIMPS.then().then().then().se();
