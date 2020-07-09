@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import asyncio
 
 
 class RADWIMPS:
@@ -8,9 +9,14 @@ class RADWIMPS:
         return cls
 
     @classmethod
-    def 世(cls):
+    async def 世(cls):
         print('世')
         return cls
 
 
-RADWIMPS.then().then().then().世()
+async def main():
+    await asyncio.ensure_future(RADWIMPS.then().then().then().世())
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
