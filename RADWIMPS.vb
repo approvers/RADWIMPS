@@ -7,7 +7,7 @@ class RADWIMPS
 	end function
 	
 	function 世() as Object
-		Console.Write ("世")
+		Console.WriteLine ("世")
 		return Me
 	end Function
 end class
