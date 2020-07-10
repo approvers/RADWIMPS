@@ -13,16 +13,9 @@ public:
 
 void setup() {
   Serial.begin(9600);
+  RADWIMPS RADWIMPS;
+  RADWIMPS.then().then().then().se();
 }
 
-void loop() {
-  static bool flag = true;
-
-  delay(1500);
-  if (flag) {
-    RADWIMPS RADWIMPS;
-    RADWIMPS.then().then().then().se();
-
-    flag = false;
-  }
+void loop(){
 }
