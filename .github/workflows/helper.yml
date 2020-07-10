@@ -1,0 +1,14 @@
+name: Helper
+
+on:
+  - pull_request
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    if: github.event.action == 'opened'
+    steps:
+      - name: Assign PR to Author
+        uses: samspills/assign-pr-to-author@v1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
