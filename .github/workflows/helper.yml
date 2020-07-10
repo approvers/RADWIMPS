@@ -1,0 +1,11 @@
+name: Helper
+
+on:
+  - pull_request
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign PR to Author
+        uses: samspills/assign-pr-to-author@v1.0
