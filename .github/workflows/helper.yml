@@ -11,4 +11,4 @@ jobs:
       - name: Assign PR to Author
         uses: samspills/assign-pr-to-author@v1.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.REPO_TOKEN }}
