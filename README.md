@@ -10,7 +10,7 @@
         <span>日本語</span>
       </td>
       <td>
-        <a href="README.en.md">English</span>
+        <a href="README.en.md">English</a>
       </td>
     </tr>
   </tbody>
