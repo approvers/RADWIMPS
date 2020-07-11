@@ -1,22 +1,16 @@
 #![feature(non_ascii_idents)]
 struct RADWIMPS;
 impl RADWIMPS {
-    fn new() -> Self {
-        Self
-    }
-
-    fn then(self) -> Self {
+    fn then(&self) -> &Self {
         print!("前");
-        self
+        &self
     }
 
-    fn 世(self) -> Self {
+    fn 世(&self){
         println!("世");
-        self
     }
 }
 
 fn main() {
-    let RADWIMPS = RADWIMPS::new();
-    RADWIMPS.then().then().then().世();
+    RADWIMPS.then().then().then().世()
 }
