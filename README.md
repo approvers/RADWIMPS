@@ -7,7 +7,7 @@
         <span>日本語</span>
       </td>
       <td>
-        <a href="README.en.md">English</span>
+        <a href="README.en.md">English</a>
       </td>
     </tr>
   </tbody>
@@ -19,4 +19,3 @@
 
  
 なお、このレポジトリは、実在するバンド「RADWIMPS」とは何ら関係ありません。
-
