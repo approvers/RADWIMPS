@@ -1,11 +1,7 @@
 module RADWIMPS exposing (radwimps)
 
-import Expect
-import Test exposing (Test, concat, test)
 
-
-
--- thenが予約後であるためzenを使う
+-- thenが予約語であるためzenを使う
 
 
 zen : String -> String
@@ -13,14 +9,10 @@ zen =
     String.cons '前'
 
 
+-- メソッドチェーンの代わりに関数合成とパイプラインを用いる
 
--- ElmはNode.jsを介さずモジュール単位での実行ができないため代わりにUTを用いる
 
-
-radwimps : Test
+radwimps : String
 radwimps =
-    Test.concat
-        [ test "前前前世" <|
-            \_ -> Expect.equal (zen >> zen >> zen <| "世") "前前前世"
-        ]
+        Debug.log "RADWIMPS" (zen >> zen >> zen <| "世")
 
