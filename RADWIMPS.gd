@@ -12,9 +12,6 @@ func se():
 	text = ""
 	return self
 
-func radwinps():
-	then().then().then().se()
-
 func _init():
-	radwinps()
+	then().then().then().se()
 	quit()
