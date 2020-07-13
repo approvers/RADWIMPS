@@ -1,4 +1,7 @@
+// https://github.com/0918nobita/CSharp-RADWIMPS
+
 using System;
+using System.Threading.Tasks;
 
 namespace RADWIMPS
 {
@@ -6,24 +9,24 @@ namespace RADWIMPS
     {
         private class RADWIMPS
         {
+            private Task task = Task.CompletedTask;
+
             public RADWIMPS then()
             {
-                Console.Write("前");
+                task = task.ContinueWith(_ => Console.Write("前"));
                 return this;
             }
 
-            public RADWIMPS 世()
+            public Task 世()
             {
-                Console.WriteLine("世");
-                return this;
+                task = task.ContinueWith(_ => Console.WriteLine("世"));
+                return task;
             }
         }
 
-        public static void Main(string[] args)
+        public static Task Main(string[] args)
         {
-            RADWIMPS RADWIMPS = new RADWIMPS();
-
-            RADWIMPS.then().then().then().世();
+            return new RADWIMPS().then().then().then().世();
         }
     }
 }
