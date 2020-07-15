@@ -1,10 +1,11 @@
-type RADWIMPS = ref object
+type RADWIMPS = object
+const 君の: RADWIMPS = RADWIMPS()
 
-proc then(value: RADWIMPS): RADWIMPS =
+method then(value: RADWIMPS): RADWIMPS =
   stdout.write "前"
   return value
 
-proc 世(value: RADWIMPS): void =
+method 世(value: RADWIMPS): void =
   echo "世"
 
-(new RADWIMPS).then().then().then().世()
+君の.then.then.then.世
