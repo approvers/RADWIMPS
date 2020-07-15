@@ -9,7 +9,6 @@ func then():
 func se():
 	text += "世"
 	print(text)
-	text = ""
 	return self
 
 func _init():
