@@ -1,9 +1,9 @@
-<!-- View at : https://svelte.dev/repl/4c5b06b7815a43e28d6c273fc2613a51 -->
+<!-- View at : https://svelte.dev/repl/446ffaff51c54d79be1733199a7a1b95 -->
 
 <script>
 	function then() {
 		RADWIMPS = "Then" + RADWIMPS
-		return { then, se: () => RADWIMPS }
+		return { then, 世: () => RADWIMPS }
 	}
 	
 	$: RADWIMPS = ""
@@ -11,5 +11,5 @@
 </script>
 
 <div>
-	{then().then().then().se()}
+	{then().then().then().世()}
 </div>
