@@ -1,8 +1,8 @@
-<!-- View at : https://svelte.dev/repl/446ffaff51c54d79be1733199a7a1b95 -->
+<!-- View at : https://svelte.dev/repl/e65e7405d4f54210a372a376c836f7fa -->
 
 <script>
 	function then() {
-		RADWIMPS = "Then" + RADWIMPS
+		RADWIMPS = "前" + RADWIMPS
 		return { then, 世: () => RADWIMPS }
 	}
 	
