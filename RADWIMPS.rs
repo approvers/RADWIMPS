@@ -6,7 +6,7 @@ impl RADWIMPS {
         &self
     }
 
-    fn 世(&self){
+    fn 世(&self) {
         println!("世");
     }
 }
