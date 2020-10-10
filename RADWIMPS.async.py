@@ -14,8 +14,16 @@ class RADWIMPS:
         return cls
 
 
+async def wait_while_they_play(future):
+    await RADWIMPS.then().then().then().世()
+    future.set_result(True)
+
+
 async def main():
-    await asyncio.ensure_future(RADWIMPS.then().then().then().世())
+    loop = asyncio.get_running_loop()
+    future = loop.create_future()
+    loop.create_task(wait_while_they_play(future))
+    await future
 
 
 if __name__ == '__main__':
