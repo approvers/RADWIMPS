@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>RADWIMPS</title>
+        <!-- React Library -->
+        <script 
+            src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"
+            integrity="sha384-7Er69WnAl0+tY5MWEvnQzWHeDFjgHSnlQfDDeWUvv8qlRXtzaF/pNo18Q2aoZNiO"
+            crossorigin
+        ></script>
+        <script
+            src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"
+            integrity="sha384-vj2XpC1SOa8PHrb0YlBqKN7CQzJYO72jz4CkDQ+ePL1pwOV4+dn05rPrbLGUuvCv"
+            crossorigin
+        ></script>
+        <script
+            src="https://unpkg.com/@babel/standalone@7.13.13/babel.min.js"
+            integrity="sha384-5a7c5/GkaCITOh374LENmvBVmw8ts0nszrwqZcCTAhsLvTruncpgJvabCBiaxolO"
+            crossorigin
+        ></script>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script type="text/babel">
+            class Then extends React.Component{
+                render(){
+                    return(
+                        <>
+                            前
+                            {this.props.children}
+                        </>
+                    );
+                }
+            };
+            class 世 extends React.Component{
+                render(){
+                    return(
+                        <>
+                            世
+                            <br />
+                        </>
+                    );
+                }
+            };
+            ReactDOM.render(
+                <Then>
+                    <Then>
+                        <Then>
+                            <世 />
+                        </Then>
+                    </Then>
+                </Then>,
+                document.getElementById('app')
+            )
+        </script>
+    </body>
+</html>
