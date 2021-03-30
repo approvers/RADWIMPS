@@ -1,0 +1,14 @@
+vim9script
+
+const RADWIMPS = {}
+
+def RADWIMPS.then(): dict<any>
+  echon "前"
+  return RADWIMPS
+enddef
+
+def RADWIMPS.se(): void
+  echon "世\n"
+enddef
+
+call RADWIMPS.then().then().then().se()
