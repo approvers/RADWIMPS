@@ -1,17 +1,15 @@
-class RADWIMPS{
-  self =>
-  def then():RADWIMPS={
+case class RADWIMPS() {
+
+  def then: RADWIMPS = {
     print("前")
-    return self
+    this
   }
 
-  def 世():RADWIMPS={
+  def 世: Unit =
     println("世")
-    return self
-  }
+
 }
 
 object Main extends App {
-  val RADWIMPS = new RADWIMPS
-  RADWIMPS.then.then.then.世
+  RADWIMPS().then.then.then.世
 }
