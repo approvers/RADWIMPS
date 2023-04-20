@@ -7,12 +7,12 @@ pub fn main() void {
             return self;
         }
 
-        pub fn 世(self: @This()) @This() {
+        pub fn se(self: @This()) @This() {
             std.debug.print("世\n", .{});
             return self;
         }
     };
 
     var radwimps = RADWIMPS{};
-    radwimps = radwimps.then().then().then().世();
+    radwimps = radwimps.then().then().then().se();
 }
