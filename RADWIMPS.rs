@@ -1,4 +1,3 @@
-#![feature(non_ascii_idents)]
 struct RADWIMPS;
 impl RADWIMPS {
     fn then(&self) -> &Self {
