@@ -1,7 +1,7 @@
 struct Radwimps {}
 
 fn then(self : Radwimps) -> Radwimps {
-  println("前")
+  print("前")
   return self
 }
 
