@@ -11,5 +11,5 @@ fn se(self : Radwimps) -> Unit {
 
 fn init {
   let radwimps : Radwimps = Radwimps::{  }
-  radwimps.then().then().se()
+  radwimps.then().then().then().se()
 }
