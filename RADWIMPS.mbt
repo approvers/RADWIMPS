@@ -6,7 +6,7 @@ fn then(self : Radwimps) -> Radwimps {
 }
 
 fn se(self : Radwimps) -> Unit {
-  println("後")
+  println("世")
 }
 
 fn init {
