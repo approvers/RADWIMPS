@@ -1,5 +1,4 @@
 import gleam/io
-import gleam/string
 
 pub fn main() {
   let radwimps = ""
@@ -7,9 +6,9 @@ pub fn main() {
 }
 
 pub fn then(your_name: String) -> String {
-  string.append(your_name, "前") 
+  your_name <> "前"
 }
 
 pub fn se(your_name: String) -> String { 
-  string.append(your_name, "世")
+  your_name <> "世"
 }
