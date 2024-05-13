@@ -1,0 +1,14 @@
+@function then() {
+  @return '前';
+}
+
+@function 世() {
+  @return '世';
+}
+
+@debug "#{then()then()then()世()}"; // ディバグ画面で書きます。
+
+body::after {
+  content: "#{then()}#{then()}#{then()}#{世()}"; // HTMLで書きます。
+  display: block;
+}
