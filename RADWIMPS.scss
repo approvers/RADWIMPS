@@ -11,6 +11,6 @@
 @debug "#{then()then()then()世()}"; // デバッグ画面に表示されます。
 
 body::after {
-  content: "#{then()}#{then()}#{then()}#{世()}"; // HTMLで書きます。
+  content: "#{then()}#{then()}#{then()}#{世()}"; // HTMLで表示されます。
   display: block;
 }
