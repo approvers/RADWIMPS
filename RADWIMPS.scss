@@ -1,0 +1,16 @@
+/// @return {string} 前
+@function then() {
+  @return '前';
+}
+
+/// @return {string} 世
+@function 世() {
+  @return '世';
+}
+
+@debug "#{then()then()then()世()}"; // デバッグ画面に表示されます。
+
+body::after {
+  content: "#{then()}#{then()}#{then()}#{世()}"; // HTMLで表示されます。
+  display: block;
+}
