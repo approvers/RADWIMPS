@@ -8,7 +8,7 @@
   @return '世';
 }
 
-@debug "#{then()then()then()世()}"; // ディバグ画面で書きます。
+@debug "#{then()then()then()世()}"; // デバッグ画面に表示されます。
 
 body::after {
   content: "#{then()}#{then()}#{then()}#{世()}"; // HTMLで書きます。
